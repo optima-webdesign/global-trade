@@ -24,7 +24,7 @@ export default function Navbar() {
         {/* Left: Logo & Search */}
         <div className="flex items-center gap-10">
           <Link href="/dashboard" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-blue-600/20 group-hover:scale-105 transition-transform">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-lg shadow-blue-600/20 group-hover:scale-105 transition-transform" href="/">
                <FaBolt />
             </div>
             <span className="text-xl font-bold tracking-tight text-white">
